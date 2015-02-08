@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302BAB9D1A732CA1001466DE /* Xingkai.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 302BAB9C1A732CA1001466DE /* Xingkai.ttc */; };
+		302BAB9F1A732ED7001466DE /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 302BAB9E1A732ED7001466DE /* WawaSC-Regular.otf */; };
+		302BABA71A735731001466DE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302BABA61A735731001466DE /* NotificationCenter.framework */; };
+		302BABAC1A735731001466DE /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302BABAB1A735731001466DE /* TodayViewController.swift */; };
+		302BABAE1A735731001466DE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302BABAD1A735731001466DE /* MainInterface.storyboard */; };
+		302BABB11A735731001466DE /* 星座运势.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 302BABA41A735731001466DE /* 星座运势.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		303FD5131A70F78000EC8F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5121A70F78000EC8F45 /* AppDelegate.swift */; };
+		303FD5161A70F78000EC8F45 /* Astro_Daily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5141A70F78000EC8F45 /* Astro_Daily.xcdatamodeld */; };
+		303FD5181A70F78000EC8F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5171A70F78000EC8F45 /* ViewController.swift */; };
+		303FD51B1A70F78000EC8F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303FD5191A70F78000EC8F45 /* Main.storyboard */; };
+		303FD51D1A70F78000EC8F45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303FD51C1A70F78000EC8F45 /* Images.xcassets */; };
+		303FD5201A70F78000EC8F45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303FD51E1A70F78000EC8F45 /* LaunchScreen.xib */; };
+		303FD5371A70F7F100EC8F45 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5351A70F7F100EC8F45 /* OptionViewController.swift */; };
+		303FD5381A70F7F100EC8F45 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5361A70F7F100EC8F45 /* WebPageViewController.swift */; };
+		303FD53A1A70FB4B00EC8F45 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FD5391A70FB4B00EC8F45 /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302BABAF1A735731001466DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303FD5051A70F78000EC8F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302BABA31A735731001466DE;
+			remoteInfo = "星座运势";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		302BABB51A735731001466DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				302BABB11A735731001466DE /* 星座运势.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		302BAB9C1A732CA1001466DE /* Xingkai.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Xingkai.ttc; sourceTree = "<group>"; };
+		302BAB9E1A732ED7001466DE /* WawaSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WawaSC-Regular.otf"; sourceTree = "<group>"; };
+		302BABA41A735731001466DE /* 星座运势.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "星座运势.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302BABA61A735731001466DE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		302BABAA1A735731001466DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302BABAB1A735731001466DE /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		302BABAD1A735731001466DE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		302BABC11A737223001466DE /* Astro DailyTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Astro DailyTests copy-Info.plist"; path = "/Users/arefly/Documents/Program/iOS/Astro Daily/Astro DailyTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		303FD50D1A70F78000EC8F45 /* 我的星座.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的星座.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303FD5111A70F78000EC8F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303FD5121A70F78000EC8F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303FD5151A70F78000EC8F45 /* Astro_Daily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Astro_Daily.xcdatamodel; sourceTree = "<group>"; };
+		303FD5171A70F78000EC8F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303FD51A1A70F78000EC8F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303FD51C1A70F78000EC8F45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		303FD51F1A70F78000EC8F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		303FD5351A70F7F100EC8F45 /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		303FD5361A70F7F100EC8F45 /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		303FD5391A70FB4B00EC8F45 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302BABA11A735731001466DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302BABA71A735731001466DE /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303FD50A1A70F78000EC8F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302BABA51A735731001466DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302BABA61A735731001466DE /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302BABA81A735731001466DE /* 星座运势 */ = {
+			isa = PBXGroup;
+			children = (
+				302BABAB1A735731001466DE /* TodayViewController.swift */,
+				302BABAD1A735731001466DE /* MainInterface.storyboard */,
+				302BABA91A735731001466DE /* Supporting Files */,
+			);
+			path = "星座运势";
+			sourceTree = "<group>";
+		};
+		302BABA91A735731001466DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302BABAA1A735731001466DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303FD5041A70F78000EC8F45 = {
+			isa = PBXGroup;
+			children = (
+				303FD50F1A70F78000EC8F45 /* Astro Daily */,
+				302BABA81A735731001466DE /* 星座运势 */,
+				302BABA51A735731001466DE /* Frameworks */,
+				303FD50E1A70F78000EC8F45 /* Products */,
+				302BABC11A737223001466DE /* Astro DailyTests copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		303FD50E1A70F78000EC8F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303FD50D1A70F78000EC8F45 /* 我的星座.app */,
+				302BABA41A735731001466DE /* 星座运势.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303FD50F1A70F78000EC8F45 /* Astro Daily */ = {
+			isa = PBXGroup;
+			children = (
+				303FD5121A70F78000EC8F45 /* AppDelegate.swift */,
+				303FD5171A70F78000EC8F45 /* ViewController.swift */,
+				303FD5191A70F78000EC8F45 /* Main.storyboard */,
+				303FD51C1A70F78000EC8F45 /* Images.xcassets */,
+				303FD5351A70F7F100EC8F45 /* OptionViewController.swift */,
+				303FD5391A70FB4B00EC8F45 /* AboutViewController.swift */,
+				303FD5361A70F7F100EC8F45 /* WebPageViewController.swift */,
+				303FD51E1A70F78000EC8F45 /* LaunchScreen.xib */,
+				303FD5141A70F78000EC8F45 /* Astro_Daily.xcdatamodeld */,
+				303FD5101A70F78000EC8F45 /* Supporting Files */,
+			);
+			path = "Astro Daily";
+			sourceTree = "<group>";
+		};
+		303FD5101A70F78000EC8F45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302BAB9C1A732CA1001466DE /* Xingkai.ttc */,
+				302BAB9E1A732ED7001466DE /* WawaSC-Regular.otf */,
+				303FD5111A70F78000EC8F45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302BABA31A735731001466DE /* 星座运势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302BABB21A735731001466DE /* Build configuration list for PBXNativeTarget "星座运势" */;
+			buildPhases = (
+				302BABA01A735731001466DE /* Sources */,
+				302BABA11A735731001466DE /* Frameworks */,
+				302BABA21A735731001466DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "星座运势";
+			productName = "星座运势";
+			productReference = 302BABA41A735731001466DE /* 星座运势.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		303FD50C1A70F78000EC8F45 /* Astro Daily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303FD52F1A70F78100EC8F45 /* Build configuration list for PBXNativeTarget "Astro Daily" */;
+			buildPhases = (
+				303FD5091A70F78000EC8F45 /* Sources */,
+				303FD50A1A70F78000EC8F45 /* Frameworks */,
+				303FD50B1A70F78000EC8F45 /* Resources */,
+				303FD53D1A7112D100EC8F45 /* Increase Build Number */,
+				302BABB51A735731001466DE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302BABB01A735731001466DE /* PBXTargetDependency */,
+			);
+			name = "Astro Daily";
+			productName = "Astro Daily";
+			productReference = 303FD50D1A70F78000EC8F45 /* 我的星座.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303FD5051A70F78000EC8F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Arefly;
+				TargetAttributes = {
+					302BABA31A735731001466DE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					303FD50C1A70F78000EC8F45 = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 303FD5081A70F78000EC8F45 /* Build configuration list for PBXProject "Astro Daily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303FD5041A70F78000EC8F45;
+			productRefGroup = 303FD50E1A70F78000EC8F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303FD50C1A70F78000EC8F45 /* Astro Daily */,
+				302BABA31A735731001466DE /* 星座运势 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302BABA21A735731001466DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302BABAE1A735731001466DE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303FD50B1A70F78000EC8F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303FD51B1A70F78000EC8F45 /* Main.storyboard in Resources */,
+				303FD5201A70F78000EC8F45 /* LaunchScreen.xib in Resources */,
+				303FD51D1A70F78000EC8F45 /* Images.xcassets in Resources */,
+				302BAB9F1A732ED7001466DE /* WawaSC-Regular.otf in Resources */,
+				302BAB9D1A732CA1001466DE /* Xingkai.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303FD53D1A7112D100EC8F45 /* Increase Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increase Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302BABA01A735731001466DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302BABAC1A735731001466DE /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303FD5091A70F78000EC8F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303FD53A1A70FB4B00EC8F45 /* AboutViewController.swift in Sources */,
+				303FD5181A70F78000EC8F45 /* ViewController.swift in Sources */,
+				303FD5371A70F7F100EC8F45 /* OptionViewController.swift in Sources */,
+				303FD5131A70F78000EC8F45 /* AppDelegate.swift in Sources */,
+				303FD5381A70F7F100EC8F45 /* WebPageViewController.swift in Sources */,
+				303FD5161A70F78000EC8F45 /* Astro_Daily.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302BABB01A735731001466DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302BABA31A735731001466DE /* 星座运势 */;
+			targetProxy = 302BABAF1A735731001466DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303FD5191A70F78000EC8F45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303FD51A1A70F78000EC8F45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303FD51E1A70F78000EC8F45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303FD51F1A70F78000EC8F45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302BABB31A735731001466DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "星座运势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		302BABB41A735731001466DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "星座运势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		303FD52D1A70F78100EC8F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303FD52E1A70F78100EC8F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303FD5301A70F78100EC8F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (RCSDS8JE23)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Astro Daily/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "我的星座";
+				PROVISIONING_PROFILE = "122c3283-a6ec-4d01-ae71-f6bde0bd62b2";
+			};
+			name = Debug;
+		};
+		303FD5311A70F78100EC8F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (RCSDS8JE23)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Astro Daily/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "我的星座";
+				PROVISIONING_PROFILE = "122c3283-a6ec-4d01-ae71-f6bde0bd62b2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302BABB21A735731001466DE /* Build configuration list for PBXNativeTarget "星座运势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302BABB31A735731001466DE /* Debug */,
+				302BABB41A735731001466DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303FD5081A70F78000EC8F45 /* Build configuration list for PBXProject "Astro Daily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303FD52D1A70F78100EC8F45 /* Debug */,
+				303FD52E1A70F78100EC8F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303FD52F1A70F78100EC8F45 /* Build configuration list for PBXNativeTarget "Astro Daily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303FD5301A70F78100EC8F45 /* Debug */,
+				303FD5311A70F78100EC8F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		303FD5141A70F78000EC8F45 /* Astro_Daily.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				303FD5151A70F78000EC8F45 /* Astro_Daily.xcdatamodel */,
+			);
+			currentVersion = 303FD5151A70F78000EC8F45 /* Astro_Daily.xcdatamodel */;
+			path = Astro_Daily.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 303FD5051A70F78000EC8F45 /* Project object */;
+}
